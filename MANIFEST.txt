@@ -1,0 +1,42 @@
+Apex Planner 1.5.0
+
+Single skill entrypoint: SKILL.md
+Purpose: domain-agnostic evidence-backed planning and implementation handoff to apex-godmode.
+Targets: Claude Code, Codex, OpenClaw, Hermes
+Implementation boundary: planning only; no production implementation.
+
+Core phases:
+01 intent
+02 reconnaissance
+03 current research
+04 design/alternatives
+05 sequencing
+06 handoff
+
+Additional controls:
+- product/outcome model
+- dependency/risk graph
+- research freshness
+- anti-pattern taxonomy
+- decision economics/reversibility
+- experiment/spike gating
+- human decision gates
+- plan simulation
+- requirements traceability
+- verification/rollout/rollback planning
+
+Supporting material is loaded progressively from modes/, phases/, references/, schemas/, templates/, and scripts/.
+
+Additional v1.2 controls: counterfactual analysis, NFR budgets, research triangulation, execution feasibility, dependency-update strategy, plan delta analysis, progressive reference index.
+
+Additional governance: stakeholder/decision ownership, counterfactual pressure-testing, expanded domain matrix, portability/handoff checks.
+Additional v1.3 controls: executable-plan graph validation, state-machine gating, bounded research budgets, decision gates, environment matrix, operations lifecycle, legal/IP/license review, and AI/agent-specific planning.
+
+Additional v1.5 controls:
+- repository history/intent reconnaissance
+- reuse and ownership boundary analysis
+- canonical assumption/inference/unknown/blocker ledger
+- change safety budgets
+- verification-oracle design
+- research query falsification design
+- plan revision/resume integrity
